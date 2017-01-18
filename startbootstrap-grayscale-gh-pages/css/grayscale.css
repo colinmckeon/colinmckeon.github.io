@@ -194,10 +194,10 @@ a {
 
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 250px; }
+    padding-top: 125px; }
 
   .download-section {
-    padding: 100px 0; }
+    padding: 144px 0; }
 
   #map {
     height: 400px;
@@ -262,5 +262,8 @@ body {
 #colin img {
   height: 400px;
   width: 400px; }
+
+#about-title {
+  margin-top: 34px; }
 
 /*# sourceMappingURL=grayscale.css.map */
