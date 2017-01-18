@@ -129,7 +129,7 @@ a {
     padding: 100px 0;
     text-align: center;
     color: white;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/top-in-clouds.jpeg) no-repeat bottom center scroll;
     background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -338,4 +338,8 @@ img::-moz-selection {
 
 body {
     -webkit-tap-highlight-color: rgba(white, 0.2);
+}
+
+#colin img {
+  height: 500px;
 }
