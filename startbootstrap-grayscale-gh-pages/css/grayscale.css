@@ -268,14 +268,31 @@ body {
   margin-top: 34px;
 }
 
+
+/* ******** MY WORK SECTION ******** */
 .work-holder{
-  padding-top: 125px; 
+  padding-top: 125px;
 }
 
 .example-work{
   height: 250px;
   width: 100%;
   background-color: green;
+}
+
+.skate{
+  background: url('../img/sk8.png');
+  background-size: cover;
+}
+
+.qup{
+  background: url('../img/qup.png');
+  background-size: cover;
+}
+
+.hangman{
+  background: url('../img/hangman.png');
+  background-size: cover;
 }
 
 /*# sourceMappingURL=grayscale.css.map */
