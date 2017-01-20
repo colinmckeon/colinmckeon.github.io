@@ -261,9 +261,21 @@ body {
 /* OTHER CONTENT */
 #colin img {
   height: 400px;
-  width: 400px; }
+  width: 400px;
+}
 
 #about-title {
-  margin-top: 34px; }
+  margin-top: 34px;
+}
+
+.work-holder{
+  padding-top: 125px; 
+}
+
+.example-work{
+  height: 250px;
+  width: 100%;
+  background-color: green;
+}
 
 /*# sourceMappingURL=grayscale.css.map */
