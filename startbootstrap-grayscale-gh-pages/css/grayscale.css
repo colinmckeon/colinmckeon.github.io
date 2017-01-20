@@ -295,4 +295,16 @@ body {
   background-size: cover;
 }
 
+#contact{
+  width: 100%;
+  padding: 50px 0;
+  color: white;
+  background: url(../img/silhouette-hiking.jpg) no-repeat center center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
 /*# sourceMappingURL=grayscale.css.map */
