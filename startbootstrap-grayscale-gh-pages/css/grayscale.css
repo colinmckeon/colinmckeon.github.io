@@ -194,7 +194,9 @@ a {
 
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 125px; }
+    padding-top: 50px;
+    padding-bottom: 50px;
+   }
 
   .download-section {
     padding: 144px 0; }
@@ -295,11 +297,11 @@ body {
   background-size: cover;
 }
 
-#contact{
+.contact-background{
+  margin-top: 125px;
   width: 100%;
-  padding: 50px 0;
   color: white;
-  background: url(../img/silhouette-hiking.jpg) no-repeat center center scroll;
+  background: url(../img/dark-mountains.jpeg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
