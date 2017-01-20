@@ -264,6 +264,7 @@ body {
 #colin img {
   height: 400px;
   width: 400px;
+  border: 4px solid #42DCA3;
 }
 
 #about-title {
@@ -272,14 +273,19 @@ body {
 
 
 /* ******** MY WORK SECTION ******** */
+.myWork-title{
+  text-align: center;
+  padding-top: 100px;
+}
+
 .work-holder{
-  padding-top: 125px;
+  padding-top: 10px;
 }
 
 .example-work{
   height: 250px;
   width: 100%;
-  background-color: green;
+  background-color: #42DCA3;
 }
 
 .skate{
@@ -307,6 +313,10 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+hr{
+  color: pink;
 }
 
 /*# sourceMappingURL=grayscale.css.map */
