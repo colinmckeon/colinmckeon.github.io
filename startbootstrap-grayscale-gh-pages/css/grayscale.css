@@ -283,9 +283,29 @@ body {
 }
 
 .example-work{
+  position: relative;
   height: 250px;
   width: 100%;
   background-color: #42DCA3;
+}
+.example-work:hover{
+  opacity:.4;
+  color: #42DCA3;
+}
+
+.view-link{
+  position: absolute;
+  bottom: 0;
+  left: 6px;
+  font-size: 18px;
+  color: white;
+}
+.code-link{
+  position: absolute;
+  bottom: 0;
+  right: 6px;
+  font-size: 18px;
+  color: white;
 }
 
 .skate{
@@ -319,4 +339,4 @@ hr{
   color: pink;
 }
 
-/*# sourceMappingURL=grayscale.css.map */
+/*# sourceMappingURL=grayscale.css.map
