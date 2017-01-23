@@ -324,7 +324,10 @@ body {
 }
 .skate:hover .work-header{
   visibility: visible;
-  text-align: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .work-header{
   visibility: hidden;
