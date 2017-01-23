@@ -314,6 +314,24 @@ body {
   border: 2px solid white;
 }
 
+/*QUEUEUP PROJECT*/
+.qup {
+  background: url(../img/qup.png) no-repeat top center/cover
+}
+.qup:hover {
+  background: -webkit-linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/qup.png) no-repeat top center/cover;
+  background: -o-linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/qup.png) no-repeat top center/cover;
+  background: linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/qup.png) no-repeat top center/cover;
+}
+.qup:hover .work-header{
+  visibility: visible;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*SKATE PROJECT*/
 .skate {
   background: url(../img/sk8.png) no-repeat top center/cover
 }
@@ -329,19 +347,9 @@ body {
   align-items: center;
   justify-content: center;
 }
-.work-header{
-  visibility: hidden;
-}
 
-.qup {
-  background: url(../img/qup.png) no-repeat top center/cover
-}
-.qup:hover {
-  background: -webkit-linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/qup.png) no-repeat top center/cover;
-  background: -o-linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/qup.png) no-repeat top center/cover;
-  background: linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/qup.png) no-repeat top center/cover;
-}
 
+/*HANGMAN PROJECT*/
 .hangman {
   background: url(../img/hangman.png) no-repeat top center/cover
 }
@@ -350,6 +358,20 @@ body {
   background: -o-linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/hangman.png) no-repeat top center/cover;
   background: linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/hangman.png) no-repeat top center/cover;
 }
+.hangman:hover .work-header{
+  visibility: visible;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.work-header{
+  visibility: hidden;
+}
+
+
+
 
 .contact-background{
   margin-top: 125px;
