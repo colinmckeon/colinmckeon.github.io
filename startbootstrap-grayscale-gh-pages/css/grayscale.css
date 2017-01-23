@@ -286,11 +286,10 @@ body {
   position: relative;
   height: 250px;
   width: 100%;
-  background-color: #42DCA3;
 }
-.example-work:hover{
-  opacity:.4;
-  color: #42DCA3;
+
+.example-work:hover a{
+  color: white;
 }
 
 .view-link{
@@ -298,29 +297,43 @@ body {
   bottom: 0;
   left: 6px;
   font-size: 18px;
-  color: white;
+  font-weight: bolder;
+  color: black;
 }
 .code-link{
   position: absolute;
   bottom: 0;
   right: 6px;
   font-size: 18px;
-  color: white;
+  font-weight: bolder;
+  color: black;
 }
 
-.skate{
-  background: url('../img/sk8.png');
-  background-size: cover;
+.skate {
+  background: url(../img/sk8.png) no-repeat top center/cover
+}
+.skate:hover {
+  background: -webkit-linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/sk8.png) no-repeat top center/cover;
+  background: -o-linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/sk8.png) no-repeat top center/cover;
+  background: linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/sk8.png) no-repeat top center/cover;
 }
 
-.qup{
-  background: url('../img/qup.png');
-  background-size: cover;
+.qup {
+  background: url(../img/qup.png) no-repeat top center/cover
+}
+.qup:hover {
+  background: -webkit-linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/qup.png) no-repeat top center/cover;
+  background: -o-linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/qup.png) no-repeat top center/cover;
+  background: linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/qup.png) no-repeat top center/cover;
 }
 
-.hangman{
-  background: url('../img/hangman.png');
-  background-size: cover;
+.hangman {
+  background: url(../img/hangman.png) no-repeat top center/cover
+}
+.hangman:hover {
+  background: -webkit-linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/hangman.png) no-repeat top center/cover;
+  background: -o-linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/hangman.png) no-repeat top center/cover;
+  background: linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/hangman.png) no-repeat top center/cover;
 }
 
 .contact-background{
@@ -335,8 +348,6 @@ body {
   -o-background-size: cover;
 }
 
-hr{
-  color: pink;
-}
+
 
 /*# sourceMappingURL=grayscale.css.map
