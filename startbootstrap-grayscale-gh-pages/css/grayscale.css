@@ -370,6 +370,27 @@ body {
   visibility: hidden;
 }
 
+.headerForModal{
+  color: black;
+  text-align: center;
+}
+.rationale{
+  color: black;
+  font-size: 14px;
+}
+.toolbox-title{
+  color: black;
+  margin: 0;
+}
+.toolbox{
+  color: black;
+}
+
+.visualRepWork{
+  height: 400px;
+  width: 100%;
+}
+
 
 
 
