@@ -370,6 +370,17 @@ body {
   visibility: hidden;
 }
 
+
+
+
+
+.button-holderForModal{
+  position: absolute;
+  color: #42DCA3;
+}
+.buttonForModal{
+  background-color: black;
+}
 .headerForModal{
   color: black;
   text-align: center;
