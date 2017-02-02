@@ -266,6 +266,12 @@ body {
   width: 400px;
   border: 4px solid #42DCA3;
 }
+@media (max-width: 500px) {
+  #colin img{
+    height: 300px;
+    width: 300px;
+  }
+}
 
 #about-title {
   margin-top: 34px;
@@ -287,6 +293,11 @@ body {
   height: 250px;
   width: 100%;
   border: 4px solid white;
+}
+@media (max-width: 1000px) {
+  .example-work{
+    margin-bottom: 28px;
+  }
 }
 
 .example-work:hover a{
