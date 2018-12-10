@@ -362,14 +362,14 @@ body {
   justify-content: center;
 }
 
-/*SKATE PROJECT*/
+/*Welcome - SKATE PROJECT*/
 .pixel{
-  background: url(../img/pixel.png) no-repeat top center/cover
+  background: url(../img/welcome-screenshot.png) no-repeat top center/cover
 }
 .pixel:hover{
-  background: -webkit-linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/pixel.png) no-repeat top center/cover;
-  background: -o-linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/pixel.png) no-repeat top center/cover;
-  background: linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/pixel.png) no-repeat top center/cover;
+  background: -webkit-linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/welcome-screenshot.png) no-repeat top center/cover;
+  background: -o-linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/welcome-screenshot.png) no-repeat top center/cover;
+  background: linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/welcome-screenshot.png) no-repeat top center/cover;
 }
 .pixel:hover .work-header{
   visibility: visible;
@@ -381,12 +381,12 @@ body {
 
 /*HANGMAN PROJECT*/
 .hangman {
-  background: url(../img/hangman.png) no-repeat top center/cover
+  background: url(../img/uga-footer.png) no-repeat top center/cover
 }
 .hangman:hover {
-  background: -webkit-linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/hangman.png) no-repeat top center/cover;
-  background: -o-linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/hangman.png) no-repeat top center/cover;
-  background: linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/hangman.png) no-repeat top center/cover;
+  background: -webkit-linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/uga-footer.png) no-repeat top center/cover;
+  background: -o-linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/uga-footer.png) no-repeat top center/cover;
+  background: linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/uga-footer.png) no-repeat top center/cover;
 }
 .hangman:hover .work-header{
   visibility: visible;
@@ -428,7 +428,7 @@ body {
 }
 
 .visualRepWork{
-  height: 400px;
+  /*height: 400px;*/
   width: 100%;
 }
 
