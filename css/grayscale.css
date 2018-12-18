@@ -330,12 +330,12 @@ body {
 
 /*QUEUEUP PROJECT*/
 .qup {
-  background: url(../img/qup.png) no-repeat top center/cover
+  background: url(../img/par-1.png) no-repeat top center/cover
 }
 .qup:hover {
-  background: -webkit-linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/qup.png) no-repeat top center/cover;
-  background: -o-linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/qup.png) no-repeat top center/cover;
-  background: linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/qup.png) no-repeat top center/cover;
+  background: -webkit-linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/par-1.png) no-repeat top center/cover;
+  background: -o-linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/par-1.png) no-repeat top center/cover;
+  background: linear-gradient(rgba(66,220,163, 0.75), rgba(66,220,163, 0.75)), url(../img/par-1.png) no-repeat top center/cover;
 }
 .qup:hover .work-header{
   visibility: visible;
